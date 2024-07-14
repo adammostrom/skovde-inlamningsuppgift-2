@@ -1,0 +1,9 @@
+Problem som jag stött på:
+
+Det var svårt först att förstå hur man på bästa sätt kollar rows/cols/diags
+för en matrix / array, det kändes initiellt som att det går att skriva generiskt
+men efterhand insåg jag att man inte kommer runt flera "if checks", vilket gör att
+jag behövde hårdkoda vissa delar, något som är svårt att avgöra om och när man ska hårdkoda något.
+
+Det var lite utmanande att överväga fördelar/nackdelar mellan en matris och en array,
+jag valde slutligen en array då jag personligen tycker det är enklare att hantera.
