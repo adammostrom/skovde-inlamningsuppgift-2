@@ -107,7 +107,7 @@ int take_bet(){
         std::cout << "\n How much would you like to bet? \n";
         std::cin >> bet;
 
-        if(bet <= balance){
+        if(bet <= balance && bet > 0){
             bet_ok = true;
         } 
     }
